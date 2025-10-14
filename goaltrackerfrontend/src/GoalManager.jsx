@@ -17,7 +17,6 @@ import {
   Alert,
   MenuItem
 } from "@mui/material";
-import config from "./config.js";
 
 const GoalManager = () => {
   const [goals, setGoals] = useState([]);
