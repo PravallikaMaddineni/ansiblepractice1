@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\hydms\Downloads\practicefullstackprojectsforcicd\goaltracker\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+706743583.index
+3612264085.index
+1846529223.index
+4079758363.index
+1696955679.index
+1987014336.index
