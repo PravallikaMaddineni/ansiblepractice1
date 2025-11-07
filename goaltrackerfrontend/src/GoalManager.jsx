@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import config from "./config.js";
 import {
   Container,
   Typography,
@@ -31,7 +30,7 @@ const GoalManager = () => {
   const [alertType, setAlertType] = useState("success");
   const [open, setOpen] = useState(false);
 
-  const baseUrl = `${config.url}/goal`;
+  const baseUrl = `${import.meta.env.VITE_API_URL}/goal`; // <-- from .env
 
   useEffect(() => {
     fetchAllGoals();
